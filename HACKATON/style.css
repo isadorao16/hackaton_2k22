@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    box-sizing:border-box;
+    height:115px; 
+    background-color: #000; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .200);
+    margin-top: 0%;
+}
+
+.header img {
+    width: 230px;
+    height: 115px;
+    position: relative;
+    margin-left: 2%;
+}
+
+.próximo{
+    border: none;
+    background-color: #9354b1;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    
+}
+.próximo a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.enigma1{
+    color: #9354b1;
+    margin-top: 2%;
+    text-align: center;
+    text-decoration: underline;
+}
+.enigma1 h2{
+    color: #000;
+    margin-top: 3%;
+    margin-right: 80%;
+}
+
+.enigma1 h3{
+    color: #000;
+    margin-top: 5%;
+}
+
+.input input{
+    width:300px;
+    height: 100px;
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border-color: #9354b1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #00000044;
+    margin-left: 40%;
+    margin-top: 4%;
+    
+}
+
+.botao input{
+    width: 100px;
+    height: 40px ;
+    margin-left: 54.5%;
+    border-radius: 10px;
+    border-color: #9354b1;
+
+}

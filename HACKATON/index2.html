@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LITERATON</title>
+</head>
+<body>
+    <div class="header">
+    <button type="submit" class="próximo"><a href="index3.html">PRÓXIMO</a></button>
+     <div ><img class="hackaton" src="IMG/Cópia de THE URBAN HEALTH (3).png"> 
+     </div>
+    </div>
+    <div class="enigma1"><h1>Enigma 3</h1> <h2>Adivinhe o livro:</h2> <h3>Por mil contos de réis fui vendido e agora vivo como um servo, até o momento do descarte. 
+    </h3></div>
+    <div class="input">
+        <input id= "input" type="text" name= "input" placeholder="Escreva sua resposta aqui">
+    </div>
+    <div class="botao"> <input type="submit" onclick="resposta()"></input></div>
+    
+
+
+    
+</body>
+</html>
+
+</body>
+</html>
+
+<script>
+    function resposta(){
+var nome = document.getElementById("input").value;
+
+if(nome == "Senhora"){
+    alert("Correto! Clique em PRÓXIMO");
+}
+else{
+    alert("Errado, tente de novo.")
+}
+    }
+    
+</script>
